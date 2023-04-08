@@ -1,8 +1,10 @@
-import Button from "./components/Button";
+//import Button from "./components/Button";
+//import ListGroup from "./components/ListGroup";
+import Like from "./components/Like";
 
 function App() {
   return (
-    <Button /> 
+    <Like onClick={()=> console.log('querelhon')}/> 
    );
 }
 
